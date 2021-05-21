@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    margin-left: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color: rgb(26, 114, 197);
+    text-align: center;
+}
+
+img{
+    width: 20%;
+}
+.kutu{
+    
+    width: 400px;
+   background-color: cadetblue;
+   margin-left: auto;
+   margin-right: auto;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+.orta{
+    background-color: rgb(228, 189, 34);
+    width: 100%;
+}
+.alt{
+    background-image: linear-gradient(rgb(77, 70, 70),white);
+width: 500px;
+}
+.kutu1{
+    margin-top: 20px;
+    width: 100px;
+    height: 50px;
+     float: left; /* blok nesneleri yanyana dizmek için kullanılır*/
+
+}
+.kutu1.sari{
+    width: 40%;
+    background-color: yellow;
+}
+.kutu1.yesil{
+    width: 20%;
+    background-color: rgb(0, 255, 42);
+}
+.kutu1.mavi{
+width: 10%;
+    background-color: rgb(33, 83, 245);
+}
+.kutu1.kirmizi{
+    width: 30%;
+    background-color: rgb(255, 51, 0);
+}
+.kutu1.mor{
+    background-color: purple;
+    width: 100%;
+}
+.clearfix{
+    clear: both;
+}

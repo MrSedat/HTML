@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin-top: 10px;
+
+
+   
+    
+    }
+    body{
+        text-align: center;
+        background-image: linear-gradient(rgb(78, 194, 188),rgb(151, 47, 47));
+        margin: 20px;
+       
+    
+    }
+    .tablo{
+        background-image: linear-gradient(rgb(238, 111, 111),rgb(56, 41, 41));
+        height: 100px;
+        width: 100px;
+        display:inline-table;
+        
+      
+    }

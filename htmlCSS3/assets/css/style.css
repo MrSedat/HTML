@@ -1,8 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
 *{
     text-align: center;
+     margin: 0; /*  baştan tüm marginleri sıfırlar */
+    box-sizing: border-box;
+    /* box sizing css de kullanılan kutu modelini secmek için kullanılır border box tercih edilir genelde */
+}
+
+body{
+    background-image: linear-gradient(rgb(78, 194, 188),rgb(151, 47, 47));
+    font-family: 'Itim', cursive;
+}
+.label{
+    color: rgb(15, 15, 15);
+    display: block;
+    
+    
+   
+    
 }
 .input{
     margin-bottom: 10px;
+    font-family: 'Itim', cursive;
 width: 200px;
 height: 25px;
+}
+.btn{
+    font-size: 16px;
+    color:rgb(245, 232, 182);
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    border: 2px solid goldenrod;
+    border-radius: 10px;
+    background-color:rgb(12, 12, 12);
+    cursor: pointer;
+    
+}
+.btn:hover{
+    background-color: rgb(230, 40, 40);
+}
+textarea{
+    font-size: 14px;
+    width: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
 }
